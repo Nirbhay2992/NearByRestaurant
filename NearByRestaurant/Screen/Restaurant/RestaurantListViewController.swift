@@ -19,13 +19,7 @@ class RestaurantListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         initiateViewModel()
-        
-        restaurantTableView.rowHeight = UITableView.automaticDimension
-        restaurantTableView.estimatedRowHeight = 100
-        restaurantTableView.separatorStyle = .none
-        restaurantTableView.separatorColor = .clear
-        restaurantTableView.register(RestaurantTableViewCell.self, forCellReuseIdentifier: RestaurantTableViewCell.identifier)
-
+        configureTableView()
     }
 
     
@@ -39,6 +33,16 @@ class RestaurantListViewController: UIViewController {
         }
         viewModel?.getRestaurantList()
     }
+    
+    private func configureTableView() {
+        restaurantTableView.rowHeight = UITableView.automaticDimension
+        restaurantTableView.estimatedRowHeight = 100
+        restaurantTableView.separatorStyle = .none
+        restaurantTableView.separatorColor = .clear
+        restaurantTableView.register(RestaurantTableViewCell.self, forCellReuseIdentifier: RestaurantTableViewCell.identifier)
+
+    }
+    
 }
 
 
