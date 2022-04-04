@@ -18,7 +18,6 @@ class RestaurantListViewController: UIViewController {
     // MARK: View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        restaurantTableView.isHidden = true
         initiateViewModel()
         configureTableView()
     }
@@ -26,6 +25,7 @@ class RestaurantListViewController: UIViewController {
     
     //MARK: ViewModel
     private func initiateViewModel() {
+        restaurantTableView.isHidden = true
         viewModel = RestaurantListViewModel(service: Service())
         viewModel?.reloadTableView = { [weak self] in
             DispatchQueue.main.async { [weak self] in
