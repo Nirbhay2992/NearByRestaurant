@@ -21,19 +21,9 @@ class LoginViewController: BaseViewController {
         super.viewDidLoad()
         configureViewModel()
     }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        if segue.identifier == SegueIdentifier.loginToRestaurantListing {
-            
-        }
-    }
 
     // MARK: IBAction
     @IBAction func didTouchLoginButton(_ sender: UIButton) {
-        
-        emailTextField.text = "nirbhay.singh@abes.com"
-        passwordTextField.text = "1234"
         
         viewModel?.performLogin(emailID: emailTextField.text, password: passwordTextField.text, completion: { [weak self] error in
             
