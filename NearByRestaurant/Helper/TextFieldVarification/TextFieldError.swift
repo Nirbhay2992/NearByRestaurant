@@ -28,7 +28,7 @@ extension ValidationError : LocalizedError {
             
             case .invalidCharacterFound(let character):
                 let format = NSLocalizedString(
-                    "Your email id can't contain the '%@'.",
+                    "Your email id is invalid, Email id must contain the '%@'.",
                     comment: ""
                 )
                 return String(format: format, String(character))

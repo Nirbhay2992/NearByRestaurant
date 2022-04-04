@@ -53,7 +53,7 @@ struct LoginTextFieldVarificationManager {
             }
             
             if !isValidEmail(emailID) {
-                throw ValidationError.invalidCharacterFound("special symbols")
+                throw ValidationError.invalidCharacterFound("'@' & '.'")
             }
         }
     }
