@@ -15,7 +15,7 @@ class RestaurantCellViewModel {
     private(set) var restaurant: Restaurant
     private(set) var restaurantImageUrl: String
  
-    init(name: String, address: String, reviews: String?, restaurantImageUrl: String, restaurant: Restaurant) {
+    private init(name: String, address: String, reviews: String?, restaurantImageUrl: String, restaurant: Restaurant) {
         self.name = name
         self.address = address
         self.reviews = reviews
