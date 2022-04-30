@@ -22,7 +22,7 @@ class TestRestaurantListViewModel: XCTestCase {
         }
         wait(for: [expectation], timeout: 6.0)
         
-        XCTAssert(viewModel.restaurents?.count ?? 0 == 63 , "GET Restaurant API response not contains all the Restaurant list")
+        XCTAssert(viewModel.restaurents?.count ?? 0 == 63 , "GET Restaurant API response does not contains all the Restaurant list")
     }
     
     func testCountryListViewModelWithStoredJSON() {

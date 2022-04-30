@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CDCF503281D171200372B2C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDCF502281D171200372B2C /* Coordinator.swift */; };
+		1CDCF505281D18E500372B2C /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDCF504281D18E500372B2C /* Storyboardable.swift */; };
+		1CDCF507281D1B2D00372B2C /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDCF506281D1B2D00372B2C /* MainCoordinator.swift */; };
 		1CE05A7227FAEA1700736AB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE05A7127FAEA1700736AB5 /* AppDelegate.swift */; };
 		1CE05A7427FAEA1700736AB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE05A7327FAEA1700736AB5 /* SceneDelegate.swift */; };
 		1CE05A7627FAEA1700736AB5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE05A7527FAEA1700736AB5 /* LoginViewController.swift */; };
@@ -24,8 +27,6 @@
 		1CE05AB027FAF3FE00736AB5 /* LoginTextFieldVarificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE05AAE27FAF3FE00736AB5 /* LoginTextFieldVarificationManager.swift */; };
 		1CE05AB227FAFFC600736AB5 /* TextFieldError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE05AB127FAFFC600736AB5 /* TextFieldError.swift */; };
 		1CE05AB327FAFFC600736AB5 /* TextFieldError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE05AB127FAFFC600736AB5 /* TextFieldError.swift */; };
-		1CE05AB627FB4E9600736AB5 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE05AB527FB4E9600736AB5 /* Constant.swift */; };
-		1CE05AB727FB4E9600736AB5 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE05AB527FB4E9600736AB5 /* Constant.swift */; };
 		1CE05ABA27FB627E00736AB5 /* RestaurantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE05AB927FB627E00736AB5 /* RestaurantListViewController.swift */; };
 		1CE05ABB27FB627E00736AB5 /* RestaurantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE05AB927FB627E00736AB5 /* RestaurantListViewController.swift */; };
 		1CE05ABE27FB695000736AB5 /* NetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE05ABD27FB695000736AB5 /* NetworkProtocol.swift */; };
@@ -82,6 +83,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CDCF502281D171200372B2C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		1CDCF504281D18E500372B2C /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
+		1CDCF506281D1B2D00372B2C /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		1CE05A6E27FAEA1700736AB5 /* NearByRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearByRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CE05A7127FAEA1700736AB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CE05A7327FAEA1700736AB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,7 +103,6 @@
 		1CE05AA927FAF16B00736AB5 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		1CE05AAE27FAF3FE00736AB5 /* LoginTextFieldVarificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextFieldVarificationManager.swift; sourceTree = "<group>"; };
 		1CE05AB127FAFFC600736AB5 /* TextFieldError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldError.swift; sourceTree = "<group>"; };
-		1CE05AB527FB4E9600736AB5 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		1CE05AB927FB627E00736AB5 /* RestaurantListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListViewController.swift; sourceTree = "<group>"; };
 		1CE05ABD27FB695000736AB5 /* NetworkProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkProtocol.swift; sourceTree = "<group>"; };
 		1CE05AC127FB6A2700736AB5 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
@@ -147,6 +150,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CDCF501281D16FA00372B2C /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				1CDCF502281D171200372B2C /* Coordinator.swift */,
+				1CDCF504281D18E500372B2C /* Storyboardable.swift */,
+				1CDCF506281D1B2D00372B2C /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
 		1CE05A6527FAEA1700736AB5 = {
 			isa = PBXGroup;
 			children = (
@@ -170,9 +183,9 @@
 		1CE05A7027FAEA1700736AB5 /* NearByRestaurant */ = {
 			isa = PBXGroup;
 			children = (
+				1CDCF501281D16FA00372B2C /* Coordinator */,
 				1CE05AEF27FB6EF100736AB5 /* Model */,
 				1CE05ADB27FB6B5F00736AB5 /* Manager */,
-				1CE05AB427FB4E8800736AB5 /* Constant */,
 				1CE05AAC27FAF3D300736AB5 /* Helper */,
 				1CE05AA427FAEEEA00736AB5 /* Screen */,
 				1CE05A7127FAEA1700736AB5 /* AppDelegate.swift */,
@@ -240,14 +253,6 @@
 				1CE05AB127FAFFC600736AB5 /* TextFieldError.swift */,
 			);
 			path = TextFieldVarification;
-			sourceTree = "<group>";
-		};
-		1CE05AB427FB4E8800736AB5 /* Constant */ = {
-			isa = PBXGroup;
-			children = (
-				1CE05AB527FB4E9600736AB5 /* Constant.swift */,
-			);
-			path = Constant;
 			sourceTree = "<group>";
 		};
 		1CE05AB827FB625400736AB5 /* Restaurant */ = {
@@ -460,13 +465,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CE05AF127FB6F0600736AB5 /* Restaurants.swift in Sources */,
+				1CDCF507281D1B2D00372B2C /* MainCoordinator.swift in Sources */,
 				1CE05A7627FAEA1700736AB5 /* LoginViewController.swift in Sources */,
 				1CE05A7227FAEA1700736AB5 /* AppDelegate.swift in Sources */,
 				1CE05AC827FB6A8500736AB5 /* kNetwork.swift in Sources */,
 				1CE05AE627FB6B5F00736AB5 /* Response.swift in Sources */,
 				1CE05AE227FB6B5F00736AB5 /* ServiceUtilty.swift in Sources */,
 				1CE05AF427FB705A00736AB5 /* JSONDecoder.swift in Sources */,
-				1CE05AB627FB4E9600736AB5 /* Constant.swift in Sources */,
 				1CE05AB227FAFFC600736AB5 /* TextFieldError.swift in Sources */,
 				1CE05AE827FB6B5F00736AB5 /* Request.swift in Sources */,
 				1CE05A7427FAEA1700736AB5 /* SceneDelegate.swift in Sources */,
@@ -475,10 +480,12 @@
 				1CE05AE427FB6B5F00736AB5 /* Service.swift in Sources */,
 				1CE05AF727FB74F700736AB5 /* RestaurantTableViewCell.swift in Sources */,
 				1CE05ABA27FB627E00736AB5 /* RestaurantListViewController.swift in Sources */,
+				1CDCF505281D18E500372B2C /* Storyboardable.swift in Sources */,
 				1CE05AC527FB6A4300736AB5 /* Environment.swift in Sources */,
 				1CE05AFA27FB75D700736AB5 /* RestaurantCellViewModel.swift in Sources */,
 				1CE05B0027FB847500736AB5 /* ImageDownloadOperation.swift in Sources */,
 				1CE05ABE27FB695000736AB5 /* NetworkProtocol.swift in Sources */,
+				1CDCF503281D171200372B2C /* Coordinator.swift in Sources */,
 				1CE05A7C27FAEA1700736AB5 /* NearByRestaurant.xcdatamodeld in Sources */,
 				1CE05AC227FB6A2700736AB5 /* Endpoint.swift in Sources */,
 				1CE05AAA27FAF16B00736AB5 /* BaseViewController.swift in Sources */,
@@ -513,7 +520,6 @@
 				1CE05AAB27FAF16B00736AB5 /* BaseViewController.swift in Sources */,
 				1CE05AC927FB6A8500736AB5 /* kNetwork.swift in Sources */,
 				1CE05AF227FB6F0600736AB5 /* Restaurants.swift in Sources */,
-				1CE05AB727FB4E9600736AB5 /* Constant.swift in Sources */,
 				1CE05AC627FB6A4300736AB5 /* Environment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -688,7 +694,7 @@
 				INFOPLIST_FILE = NearByRestaurant/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -716,7 +722,7 @@
 				INFOPLIST_FILE = NearByRestaurant/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
