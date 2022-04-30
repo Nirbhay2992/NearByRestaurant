@@ -7,13 +7,14 @@
 
 import UIKit
 
-class RestaurantListViewController: UIViewController {
+class RestaurantListViewController: UIViewController, Storyboardable {
 
     // MARK: IBOutlet
     @IBOutlet private weak var restaurantTableView: UITableView!
     
     // MARK: Properties
     private var viewModel: RestaurantListViewModel?
+    weak var coordinator: MainCoordinator?
     
     // MARK: View Life Cycle
     override func viewDidLoad() {
